@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
+    'drf_yasg',
     'django_filters',
-    'core',
+    'cityApi.core',
+    'cityApi.users',
+    'cityApi.regions',
 ]
 
 MIDDLEWARE = [
@@ -123,10 +127,43 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = 'static'
 
+# Account urls
+
+LOGIN_URL = 'rest_framework:login'
+LOGOUT_URL = 'rest_framework:logout'
+
+# https://www.django-rest-framework.org/api-guide/authentication/
 
 REST_FRAMEWORK = {
     # 'DEFAULT_PERMISSION_CLASSES': 'rest_framework.permissions.IsAuthenticated',
     'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
+    'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework.authentication.TokenAuthentication',),
+}
+
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Token': {
+            'type': 'apiKey',
+            'in': 'header',
+            'name': 'Authorization',
+            'description': 'System token authorization, add "Token" before the value, Ex: "Token 428e9254821ddeeab4acb6ff6856c53c7b23c39d"'
+        }
+    },
+    'USE_SESSION_AUTH': False,
+    # "exclude_namespaces": [], # List URL namespaces to ignore
+    # "api_version": '0.1',  # Specify your API's version
+    # "api_path": "/",  # Specify the path to your API not a root level
+    # "enabled_methods": [  # Specify which methods to enable in Swagger UI
+    #     'get',
+    #     'post',
+    #     'put',
+    #     'patch',
+    #     'delete'
+    # ],
+    # "api_key": '', # An API key
+    # "is_authenticated": True,  # Set to True to enforce user authentication,
+    # "is_superuser": False,  # Set to True to enforce admin only access
 }

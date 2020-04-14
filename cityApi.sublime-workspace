@@ -1,0 +1,209 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"databases"
+			]
+		]
+	},
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kaspary/Documentos/Docker_dotnet/Dockerfile",
+		"/media/kaspary/Files/Documents/Projeto api cidades/cityApi/urls.py",
+		"/media/kaspary/A4E0B7F6E0B7CCB4/Users/Kaspary/Dados de Aplicativos/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/media/kaspary/Files/Documents/Freelancer/after_install_docker.sh",
+		"/media/kaspary/Files/Documents/Freelancer/install_docker.sh",
+		"/home/kaspary/Files/Documents/Projeto Controle/controll/services/server/Dockerfile",
+		"/home/kaspary/Files/Documents/Freelancer/install_docker.sh",
+		"/home/kaspary/Files/Documents/Freelancer/after_install_docker.sh",
+		"/home/kaspary/Files/Documents/Projeto Controle/controll_db.sql",
+		"/home/kaspary/Files/Documents/Projeto Controle/projeto",
+		"/home/kaspary/Documentos/Docker_envorniment/Dockerfile",
+		"/media/kaspary/Files/Documents/Projeto Controle/projeto",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/database/Dockerfile",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/docker-compose.yml",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/database/controll_db_12_12_19.sql",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/database/dump_postgres.txt",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/server/Dockerfile",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/nginx/dev.conf",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/server/controll/settings.py",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/nginx/Dockerfile",
+		"/media/kaspary/Files/Documents/Projeto Controle/controll/services/server/requirements.txt",
+		"/media/kaspary/Files/Documents/Arduino/Fita_Led_PushButton/Cores Controle.txt",
+		"/media/kaspary/Files/Documents/Arduino/Projeto_IRControl/Projeto_IRControl.ino"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tmp",
+			"CNPJ",
+			"proxy_add_x_forwarded_for",
+			"controll_server_1",
+			"database",
+			"controll_server_1",
+			"RUN"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 33.0
+	},
+	"output.exec":
+	{
+		"height": 133.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
