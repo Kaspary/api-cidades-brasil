@@ -1,3 +1,1 @@
-
-
-https://sunscrapers.com/blog/ultimate-tutorial-django-rest-framework-part-1/
+# Api para consultas de cidades e estados brasileiros em Django Rest Framework
