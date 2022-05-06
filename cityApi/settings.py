@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'drf_yasg',
+    'helpers',
     'django_filters',
     'cityApi.core',
     'cityApi.users',
